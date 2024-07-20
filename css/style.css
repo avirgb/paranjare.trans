@@ -97,9 +97,15 @@ header{
     box-shadow: var(--shadow);
 }
 
+header .img-logo{
+    width: 170px;
+    font-weight: bolder;
+}
+
 header .logo{
     color: var(--secondary);
     font-size: 2.5rem;
+    width: 11%;
     font-weight: bolder;
 }
 
