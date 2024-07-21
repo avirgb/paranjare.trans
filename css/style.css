@@ -52,6 +52,7 @@ section:nth-child(even){
     padding-top: 1rem;
 }
 
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -98,7 +99,7 @@ header{
 }
 
 header .img-logo{
-    width: 170px;
+    width: 150px;
     font-weight: bolder;
 }
 
@@ -214,6 +215,7 @@ header .icons #menu-bars{
     /* flex-wrap: wrap; */
     gap: 2rem;
     padding-top: 9rem;
+    /* height: 100vh; */
 }
 .swiper {
     width: 100%;

@@ -1,9 +1,11 @@
 let menu = document.querySelector('#menu-bars');
+let btnup = document.querySelector('#myBtn');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = (e) => {
     menu.classList.toggle('da-times');
     navbar.classList.toggle('active');
+    
     e.preventDefault();
 }
 const menus = document.querySelector('#menu-bars');
@@ -46,3 +48,4 @@ window.onscroll = () => {
         }
     })
 }
+
