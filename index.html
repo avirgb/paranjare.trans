@@ -10,6 +10,7 @@
         
         <!-- Css -->
         <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/favicon.png" />
 
         <!-- SwiperJs -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -19,7 +20,7 @@
 
     <!-- Header Section Start-->
     <header>
-        <img src="img/icon.png" alt="" class="img-logo">
+        <a href="#home"><img src="img/icon.png" alt="" class="img-logo"></a>
         <!-- <a href="#" class="logo">Paran<span>jare.trans</span></a> -->
 
         <nav class="navbar">
@@ -301,7 +302,7 @@
 
      <a
       href="https://api.whatsapp.com/send?phone=6285733397776&text=Halo, Paranjare-trans?"
-      class="btn btn-lg text-white"
+      class="to-top-wa"
       target="_blank"
       style="
         position: fixed;
@@ -309,15 +310,18 @@
         bottom: 20px;
         background-color: rgb(17, 192, 70);
       "
-      ><i class="fab fa-whatsapp"></i> Hub langsung</a
+      ><i class="fab fa-whatsapp"></i> hub langsung</a
     >
 
-    
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
 
 
 
 <!-- Script Js -->
 <script src="js/script.js"></script>
+<script src="js/scroll.js"></script>
 <!-- SwiperJs -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -357,7 +361,6 @@ var swiper = new Swiper(".home-slider", {
             },
         });
 </script>
-
 
 
 </body>

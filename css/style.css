@@ -52,7 +52,47 @@ section:nth-child(even){
     padding-top: 1rem;
 }
 
-
+.to-top {
+    background: #a6a6a6;
+    position: fixed;
+    bottom: 16px;
+    right:20px;
+    width:40px;
+    height:40px;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+    color:#ffffff;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:75px;
+    pointer-events: auto;
+    opacity:1;
+  }
+.to-top-wa {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--primary);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+  }
+  
+  .to-top-wa.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+  
 .btn{
     margin-top: 1rem;
     display: inline-block;
